@@ -1,0 +1,149 @@
+body {
+    background-color: #ffffff; /* White background for body */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #66b3ff; /* Lighter blue that complements the logo */
+}
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #66b3ff; /* Lighter blue that complements the logo */
+    color: #000; /* Dark text color for readability */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure content is spaced out */
+}
+
+.sidebar .logo img {
+    width: 100%;
+    height: auto;
+}
+
+.sidebar .menu {
+    margin-top: 50px;
+}
+
+.sidebar .menu a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center; /* Align items to the center */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+.sidebar .menu i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.menu-utama {
+    padding: 10px;
+    margin: 5px 0;
+    color: white;
+}
+
+.menu-utama a:hover {
+    background-color: royalblue;
+}
+
+.sidebar .menu a:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Light color on hover */
+}
+
+.sidebar .logout {
+    margin-top: auto; /* Push to bottom */
+    text-align: right; /* Align to the right */
+}
+
+.sidebar .logout a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center; /* Align icon and text */
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.sidebar .logout a:hover {
+    background-color: royalblue;
+}
+
+.sidebar .logout i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.content {
+    margin-left: 250px; /* Offset for the sidebar */
+    padding: 20px;
+}
+
+.navbar .form-inline {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .form-inline .form-control {
+    max-width: 600px;
+}
+
+.navbar .form-inline .btn {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar .form-inline .btn:hover {
+    color: #d3d3d3; /* Lighter color on hover */
+}
+
+.navbar .d-flex.align-items-center {
+    color: white;
+}
+
+.navbar .d-flex.align-items-center .fa-user-circle {
+    font-size: 24px; /* Adjust icon size */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+/* Card styling */
+.card {
+    border: none; /* Remove default card border */
+    border-radius: 8px; /* Rounded corners for card */
+    overflow: hidden; /* Hide overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background: linear-gradient(135deg, #e0f7fa, #b9d8f5); /* Gradient background */
+}
+
+.card-body {
+    padding: 20px; /* Padding inside the card */
+    text-align: center; /* Center align text */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Title font size */
+    margin-bottom: 10px; /* Space below the title */
+    color: #333; /* Darker color for title text */
+}
+
+.card-text {
+    font-size: 1.5rem; /* Text font size */
+    font-weight: bold; /* Make text bold */
+    color: #007bff; /* Blue color for text */
+}
+
+.card i {
+    color: #007bff; /* Blue color for icons */
+    margin-bottom: 10px; /* Space below icon */
+}
